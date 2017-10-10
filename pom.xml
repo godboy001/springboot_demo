@@ -35,10 +35,28 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- 整合前端视图模板框架 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<!-- 整合前端视图模板框架 -->
+		
+		<!-- 整合jpa操作数据库 -->
+		<dependency>  
+           <groupId>org.springframework.boot</groupId>  
+           <artifactId>spring-boot-starter-data-jpa</artifactId>  
+       </dependency>  
+       <!-- 整合jpa操作数据库 -->
+       
+       <!-- mysql驱动 -->
+       <dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		</dependency>
+       <!-- mysql驱动 -->
+        
 	</dependencies>
 
 	<build>
